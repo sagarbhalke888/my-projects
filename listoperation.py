@@ -26,10 +26,11 @@ for i in range(0,N):
 
 
     elif l[i][0]=='append':
+        z=int(l[i][1])
 
 
 
-        m.append(l[i][1])
+        m.append(z)
         count=count+1
 
 
